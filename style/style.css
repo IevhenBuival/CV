@@ -88,6 +88,7 @@ position:static;
 /*contact section*/
 .contact_div{
 margin: 50px 0 0 40px;
+position: relative;
 }
 
 .contact_section_type{
@@ -97,7 +98,7 @@ font-weight: bold;
 font-size: 18px;
 line-height: 24px;
 margin-right: 5px;
-
+position: relative;
 }
 .contact_section_link{
 color: #FB6D3A;
@@ -105,11 +106,13 @@ font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 24px;
+position: relative;
 }
 .skill_list
 {
  padding-left: 17px;  
  color: #FB6D3A; 
+ position: relative;
 }
 .skill_list_text
 {
