@@ -78,6 +78,7 @@ sidebar
 padding: 40px 0;
 background-color: #1f2939;
 width: 25%;
+overflow: hidden;
 position:static;
 }
 /*contact section*/
