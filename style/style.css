@@ -63,7 +63,7 @@ width: calc(100%-370px);
 }
 .photo_div_container
 {
-    width: 100%; height: 100%; object-fit: cover; 
+    width: 100%;  object-fit: cover; 
 }
 .photo_div{
 /*    display: flex; */
