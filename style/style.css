@@ -2,6 +2,8 @@
 body{background-color : #F5F7FA;
 font-family: "montserrat",sans-serif;
 width: 1200px;
+position: -webkit-sticky;
+position: sticky;
 }
 
 p{
@@ -62,6 +64,8 @@ width: calc(100%-370px);
 
 .photo_div{
     display: flex; 
+    position:static;
+      /*  box-sizing: inherit;*/
 }
 /*
 sidebar
@@ -71,6 +75,7 @@ sidebar
 padding: 40px 0;
 background-color: #1f2939;
 width: 370px;
+position:static;
 }
 /*contact section*/
 .contact_div{
