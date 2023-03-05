@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My CV</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <h3 id="HintJS" class="HintJS_h3">To activate javascript clic on text or buttom left side of JS icon<img
+      class="img_js" src="img/js.png" alt="js icon"></h3>
+  <script>
+    let myHintJS = document.getElementById('HintJS');
+    myHintJS.addEventListener('click', function (e) {
+
+      myHintJS.textContent = 'Nice, now try another activitys';
+
+    }, false);
+
+  </script>
+  <!-- MAIN DIV-->
+  <DIV class="MAIN_DIV">
+
+
+    <!--content div-->
+    <div class="content_div">
+
+      <!--about div-->
+      <div class="about_div">
+        <h3 class="content_h3">Future Front-End Developer (I hope)</h3>
+        <h1 class="content_h1">Ievhen Buival</h1>
+        <h2 id="h2_AGE" class="content_h2"><span id="myAge">AGE </span><img class="img_js" src="img/js.png"
+            alt="js icon"></h1>
+          <script type="text/javascript" src="scripts/Age.js"></script>
+
+          <!--about_p div clamp clamp-3-->
+          <p class="about_p">
+            <span> I am newcommer in js community. I have been programming for 1c all my adult life. I happened to face
+              html+css+js at my workplace for the last two years from time to time.
+            </span>
+            <span id="aboutwithShowMoAll">The tasks concerned modifying the existing code, but an interest aroused in me
+              to study the technologies more thoroughly. So let's start the path from Front-End Developer Junior to
+              Front-End Developer Senior.
+            </span>
+            <span id="aboutwithShowMo"><a id="aboutwithShowMoHref" href="#">Show All</a><img class="img_js2"
+                src="img/js.png" alt="js icon"> </span>
+      </div>
+      <script type="text/javascript" src="scripts/Showmo.js"></script>
+      </p>
+      <!--project div-->
+      <div class="project_div">
+        <h2 class="content_h2">Projects</h2>
+        <ol>
+          <li><a class="content_link"
+              href="https://my-resume-test-001.netlify.app/">https://my-resume-test-001.netlify.app/</a>
+            <span class="colorA8">.................</span>
+            <span class="colorBlack">[</span> <span class="colorA8">My first task copy resume (GoIT marathon free weekly
+              course)</span> <span class="colorBlack">]</span>
+          </li>
+          <li><a class="content_link" href="https://ievhenbuival.github.io/CV/">https://ievhenbuival.github.io/CV/</a>
+            <span class="colorA8">.................</span>
+            <span class="colorBlack">[</span> <span class="colorA8">This CV (modified version of first project)</span>
+            <span class="colorBlack">]</span>
+          </li>
+        </ol>
+      </div>
+      <!--Works div-->
+
+      <div class="works_div">
+        <h2 class="content_h2">Work Experience</h2>
+        <!--company 1 div-->
+        <div class="company_div">
+          <h4 class="content_h4">Software Development and Testing Specialist <span class="orange"> "Enterprise Business
+              Solutions" LLC </span></h4>
+          <p class="company_p">
+            September 2021 - up to now <span class="colorBlack">|</span> Kyiv
+          </p>
+          <h4 class="content_h4">Software Development and Testing Specialist <span class="orange"> "Media Group Ukraine"
+              LLC </span></h4>
+          <p class="company_p">
+            March 2019 - September 2021 <span class="colorBlack">|</span> Kyiv
+          </p>
+          <ul class="company_list">
+            <li>Development of mechanisms and provision of automatic exchange of distributed databases
+            </li>
+            <li>Creation and maintenance of a database(architecture, web interface, subsystems and algorithms) for a
+              casting center, a database of a costume designer
+            </li>
+            <li>Development and launch of telegram bot and sms notification system
+            </li>
+            <li>Development CRM module for one media group company
+            </li>
+            <li>Support of 1c databases of the group of companies
+            </li>
+          </ul>
+
+        </div>
+        <div class="company_div">
+          <h4 class="content_h4"> Software Engineer<span class="orange"> "Nasha Apteka" LLC</span></h4>
+          <p class="company_p">
+            December 2011 - February 2019 <span class="colorBlack">|</span> Kyiv
+          </p>
+          <ul class="company_list">
+            <li>
+              Creating an order tracking system from scratch, developing a supplier price list analysis system, updating
+              the online price list of a pharmacy network, exchanging data with third-party databases MS Sql, MySQL,
+              Oracle , DBF via ODBC
+            </li>
+            <li>
+              Updating, developing interfaces and algorithms, organizing data migration between our own and external
+              databases
+            </li>
+            <li>
+              Administration of MSSQL 2008, 2016 database servers
+            </li>
+          </ul>
+        </div>
+
+        <div class="company_div">
+          <h4 class="content_h4">System Programmer<span class="orange"> "Vidavnictvo «Lira K»" LLC</span></h4>
+          <p class="company_p">
+            November 2011 <span class="colorBlack">|</span> Kyiv
+          </p>
+          <ul class="company_list">
+            <li>
+              Transferring a database from 1S7.7 to version 1S8.0
+            </li>
+
+          </ul>
+        </div>
+        <div class="company_div">
+          <h4 class="content_h4"> Software Engineer <span class="orange"> "Tatneft Ukrnefteproduct" LLC </span></h4>
+          <p class="company_p">
+            June 2008 - December 2010 <span class="colorBlack">|</span> Kyiv
+          </p>
+          <ul class="company_list">
+            <li>Updating, development, implementation, testing and support of 1C information database modules of the
+              enterprise (operational, salary, accounting of the central office and branches, consolidated)
+            </li>
+            <li>Management and control of data migration of branch and head office servers, administration of MS SQL
+              server 2000,2003,2008.
+            </li>
+            <li>Data exchange with client banks of the enterprise, with the Internet assistant MTS, various uploads and
+              downloads of data in various formats
+            </li>
+            <li>Create technical park inventory using WMI
+            </li>
+          </ul>
+
+        </div>
+        <div class="company_div">
+          <h4 class="content_h4">Head of Programming Department<span class="orange"> Private small enterprise "Apteka
+              "KiAVO"" </span></h4>
+          <p class="company_p">
+            October 2003 - June 2008 <span class="colorBlack">|</span> Kyiv
+          </p>
+          <ul class="company_list">
+            <li> Organization of data exchange between operational and accounting DB in 1C</li>
+            <li> Organization of work of the database of outlets of an enterprise with trade equipment</li>
+            <li> Organization of data import and export between the ordering systems of medical supplies suppliers and
+              the operational database</li>
+          </ul>
+
+        </div>
+      </div>
+      <div>
+        <h2 class="content_h2">Education</h2>
+        <h4 class="content_h4_orange">National Аviation University</h4>
+        <h4 class="content_h4">Computer systems engineer</h4>
+        <p class="company_p">
+          September 1999 - June 2005 <span class="colorBlack">|</span> Kyiv
+        </p>
+      </div>
+
+    </div>
+    <aside class="sidebar_section">
+      <div class="photo_div_container">
+        <img class="photo_div" src="img/photo.jpg" alt="my foto">
+      </div>
+      <!--my contacts div -->
+      <div class="contact_div">
+        <h3 class="sidebar_h3">Contacts</h3>
+        <div>
+          <span class="contact_section_type">C:</span>
+          <a class="contact_section_link" href="tel:+380989275680">+380989275680</a>
+        </div>
+        <div>
+          <span class="contact_section_type">E:</span>
+          <a class="contact_section_link" href="mailto:kdotbull@gmail.com">kdotbull@gmail.com</a>
+        </div>
+
+      </div>
+      <!--my tech skills div -->
+      <div class="skill_div">
+        <h3 class="sidebar_h3">Tech Skills</h3>
+        <div class="skill_filtr">
+        </div>
+        <div class="dropdown">
+          <button id="Menu" onclick="myMenuFunction()" class="dropbtn"> All </button><img class="img_js"
+            src="img/js.png" alt="js icon">
+          <div id="myDropdown" class="dropdown-content">
+            <a onclick="myMenuFunctionFiltr('All')" href="#">All</a>
+            <a onclick="myMenuFunctionFiltr('Expert')" href="#">Expert</a>
+            <a onclick="myMenuFunctionFiltr('Currently learning')" href="#">Currently learning</a>
+            <a onclick="myMenuFunctionFiltr('Normal')" href="#">Normal</a>
+            <a onclick="myMenuFunctionFiltr('Little experience')" href="#">Little experience</a>
+          </div>
+        </div>
+        <script>
+          function myMenuFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+
+          }
+          window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+              var dropdowns = document.getElementsByClassName("dropdown-content");
+              var i;
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                  ;
+                }
+              }
+            }
+          }
+
+          function myMenuFunctionFiltr(idMenu) {
+            let myMenu = document.getElementById("Menu");
+            myMenu.textContent = '' + idMenu;
+            let NotVisible = document.getElementsByClassName("foFiltr");
+            let ReplecedSymbol = ' ';
+            let str = idMenu;
+            let FiltrClassName = str.replace(ReplecedSymbol, '_');
+            let j = 0;
+            for (j = 0; j < NotVisible.length; j++) {
+              let current = NotVisible[j];
+              if (current.classList.contains(FiltrClassName) === false)
+                current.classList.add('invisible');
+              else
+                current.classList.remove('invisible');
+            }
+          }
+
+
+        </script>
+        <ul class="skill_list">
+          <li class="foFiltr All Currently_learning Little_experience"><span class="skill_list_text">HTML5 (currently
+              learning,little experience)</span> </li>
+          <li class="foFiltr All Currently_learning Little_experience"><span class="skill_list_text">CSS3 (currently
+              learning,little experience)</span></li>
+          <li class="foFiltr All Currently_learning Little_experience"><span class="skill_list_text">JavaScript
+              (currently learning,little experience)</span></li>
+          <li class="foFiltr All Expert"><span class="skill_list_text">T-SQL(expert)</span></li>
+          <li class="foFiltr All Expert"><span class="skill_list_text">1C77,8.0,8.3(expert)</span></li>
+          <li class="foFiltr All Normal"><span class="skill_list_text">VBScript(normal)</span></li>
+          <li class="foFiltr All Normal"><span class="skill_list_text">Command language(normal)</span></li>
+          <li class="foFiltr All Little_experience"><span class="skill_list_text">WMI (little experience)</span></li>
+          <li class="foFiltr All Little_experience"><span class="skill_list_text">С++ (little experience)</span></li>
+          <li class="foFiltr All Little_experience"><span class="skill_list_text">Pascal (little experience)</span></li>
+          <li class="foFiltr All Little_experience"><span class="skill_list_text">Basic (little experience)</span></li>
+          <li class="foFiltr All Little_experience"><span class="skill_list_text">Fortran( little experience)</span>
+          </li>
+          <li class="foFiltr All Little_experience"><span class="skill_list_text">PHP 4 (little experience)</span></li>
+          <li class="foFiltr All Little_experience"><span class="skill_list_text">Perl (little experience)</span></li>
+          <li class="foFiltr All Little_experience"><span class="skill_list_text">TASM 2 (little experience)</span></li>
+        </ul>
+      </div>
+      <!--my soft skills div -->
+      <div class="skill_div">
+        <h3 class="sidebar_h3">Soft Skills</h3>
+        <ul class="skill_list">
+          <li><span class="skill_list_text">Responsibility</span></li>
+          <li><span class="skill_list_text">Adaptability</span></li>
+          <li><span class="skill_list_text">Optimism</span></li>
+          <li><span class="skill_list_text">Сreativity</span></li>
+          <li><span class="skill_list_text">Initiative</span></li>
+          <li><span class="skill_list_text">Teamwork</span></li>
+          <li><span class="skill_list_text">Reliability</span></li>
+          <li><span class="skill_list_text">GooglingSkill</span></li>
+        </ul>
+      </div>
+      <div class="skill_div">
+        <h3 class="sidebar_h3">Tools</h3>
+        <ul class="skill_list">
+          <li><span class="skill_list_text">Visual Studio Code</span> </li>
+          <li><span class="skill_list_text">Linux Debian 10</span> </li>
+          <li><span class="skill_list_text">Figma</span> </li>
+          <li><span class="skill_list_text">Windows 95,98,XP,7,10,NT,2000,2008</span> </li>
+          <li><span class="skill_list_text">Docker</span> </li>
+          <li><span class="skill_list_text">IIS,Apache</span> </li>
+          <li><span class="skill_list_text">Git</span> </li>
+          <li><span class="skill_list_text">SQL Server menagment studio</span> </li>
+          <li><span class="skill_list_text">1S Administrator tools</span> </li>
+        </ul>
+      </div>
+    </aside>
+  </DIV>
+</body>
+
+</html>

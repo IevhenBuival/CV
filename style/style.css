@@ -1,0 +1,325 @@
+/*selector body*/
+body {
+    background-color: #F5F7FA;
+    font-family: "montserrat", sans-serif;
+    width: 1200px;
+    position: -webkit-sticky;
+    position: sticky;
+    margin: 0 auto;
+
+}
+
+p {
+    color: #A8A8A8;
+}
+
+ol {
+    padding: 0 0 0 17px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.color59 {
+    color: #595959;
+}
+
+.colorWhite {
+    color: #FFFFFF;
+}
+
+.colorA8 {
+    color: #A8A8A8;
+}
+
+.liwhite {
+    color: #9c8f8f;
+}
+
+.MAIN_DIV {
+    display: flex;
+    margin: 40px auto;
+    margin-top: 0;
+    background-color: #ffffff;
+    width: calc(100%-370px);
+}
+
+.clamp-3 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.my_contacts_aside {
+    padding: 100px 90px;
+    background-color: #1E2939;
+    color: #ffffff;
+}
+
+.content_div {
+    padding: 40px 40px;
+
+    margin: 40px auto;
+    /* width: 525px;*/
+    background-color: #ffffff;
+
+}
+
+.HintJS_h3 {
+    min-height: 20px;
+    padding: 10px;
+
+    display: block;
+
+}
+
+.photo_div_container {
+    width: 100%;
+    object-fit: cover;
+}
+
+.photo_div {
+    /*    display: flex; */
+    max-width: 100%;
+    height: auto;
+
+    object-fit: cover;
+    /*position:static;*/
+    /*  box-sizing: inherit;*/
+}
+
+/*
+sidebar
+*/
+.sidebar_section {
+    padding: 40px 0;
+    background-color: #1f2939;
+    width: auto;
+    overflow: hidden;
+    position: static;
+}
+
+/*contact section*/
+.contact_div {
+    margin: 50px 0 0 40px;
+    position: relative;
+}
+
+.contact_section_type {
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.contact_section_link {
+    color: #FB6D3A;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    position: relative;
+}
+
+.skill_list {
+    padding-left: 17px;
+    color: #FB6D3A;
+    position: relative;
+}
+
+.skill_list_text {
+    color: #ffffff;
+}
+
+.skill_div {
+    margin: 50px 0 0 40px;
+}
+
+.sidebar_h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 10px;
+
+}
+
+/* контент*/
+.content_h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.content_h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin: 0 0 10px 0;
+}
+
+.invisible {
+    display: none !important;
+}
+
+.img_js {
+    position: relative;
+    margin-bottom: -15px;
+}
+
+.img_js2 {
+    /*position:sticky;*/
+    /*display: flex; */
+    margin-left: 0 px;
+    margin-bottom: -25px;
+}
+
+
+.content_h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 22px;
+    color: #000000;
+    margin: 0 0 10px 0;
+}
+
+.content_h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin: 0 0 10px 0;
+}
+
+.content_h4_orange {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin: 0 0 10px 0;
+}
+
+.content_link {
+    color: #A8A8A8;
+    margin-left: 5px;
+}
+
+.about_div {
+    margin-bottom: 50px;
+}
+
+.project_div {
+    margin: 100px 0px 60px;
+}
+
+.works_div {
+    margin-bottom: 50px;
+
+}
+
+.about_p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 400px;
+    height: 120px;
+}
+
+.orange {
+    color: #FB6D3A;
+}
+
+.colorBlack {
+    color: #000000;
+}
+
+.company_p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+    width: 525px;
+}
+
+.company_div {
+    margin: 0 0 15px 0;
+}
+
+.company_list {
+    padding: 0 0 0 17px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    min-width: 160px;
+}
+
+/* Кнопка выпадающего меню при наведении и фокусировке */
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: #2980B9;
+}
+
+/* Контейнер <div> - необходим для размещения выпадающего содержимого */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Ссылки внутри выпадающего списка */
+.dropdown-content a {
+    color: black;
+    padding: 12px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {
+    background-color: #ddd
+}
+
+/* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
+.show {
+    display: block;
+}
