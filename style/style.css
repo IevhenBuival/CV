@@ -2,7 +2,7 @@
 body {
     background-color: #F5F7FA;
     font-family: "montserrat", sans-serif;
-    width: 1200px;
+    max-width: 1200px;
     position: -webkit-sticky;
     position: sticky;
     margin: 0 auto;
@@ -43,7 +43,25 @@ ol {
     margin: 40px auto;
     margin-top: 0;
     background-color: #ffffff;
-    width: calc(100%-370px);
+
+}
+
+
+.content_div {
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+
+    width: 60%;
+    background-color: #ffffff;
+}
+
+
+
+.about_div {
+
+    width: 100%;
 }
 
 .clamp-3 {
@@ -58,14 +76,7 @@ ol {
     color: #ffffff;
 }
 
-.content_div {
-    padding: 40px 40px;
 
-    margin: 40px auto;
-    /* width: 525px;*/
-    background-color: #ffffff;
-
-}
 
 .HintJS_h3 {
     min-height: 20px;
@@ -96,10 +107,11 @@ sidebar
 .sidebar_section {
     padding: 40px 0;
     background-color: #1f2939;
-    width: auto;
+    width: 40%;
     overflow: hidden;
     position: static;
 }
+
 
 /*contact section*/
 .contact_div {
@@ -147,18 +159,19 @@ sidebar
     line-height: 27px;
     color: #FFFFFF;
     margin: 10px;
-
+    width: 30%;
 }
 
 /* контент*/
 .content_h3 {
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
-    color: #000000;
-    margin-bottom: 10px;
+    color: #a79a9a;
+    margin: 0 0 10px 0;
 }
+
 
 .content_h1 {
     font-style: normal;
@@ -176,6 +189,7 @@ sidebar
 .img_js {
     position: relative;
     margin-bottom: -15px;
+    border-radius: 50%;
 }
 
 .img_js2 {
@@ -183,6 +197,7 @@ sidebar
     /*display: flex; */
     margin-left: 0 px;
     margin-bottom: -25px;
+    border-radius: 50%;
 }
 
 
@@ -218,27 +233,33 @@ sidebar
     margin-left: 5px;
 }
 
-.about_div {
-    margin-bottom: 50px;
-}
+
 
 .project_div {
-    margin: 100px 0px 60px;
+    display: block;
+    position: relative;
+    margin: 40px 0px;
+
 }
 
 .works_div {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
 }
 
 .about_p {
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400px;
     font-size: 14px;
     line-height: 24px;
     color: #595959;
-    width: 400px;
-    height: 120px;
+    width: 70%;
+    height: auto;
+}
+
+.gray {
+    color: #595959;
+    padding-right: 10px;
 }
 
 .orange {
@@ -248,6 +269,7 @@ sidebar
 .colorBlack {
     color: #000000;
 }
+
 
 .company_p {
     font-family: Montserrat;
@@ -282,6 +304,7 @@ sidebar
     border: none;
     cursor: pointer;
     min-width: 160px;
+    border-radius: 16px;
 }
 
 /* Кнопка выпадающего меню при наведении и фокусировке */
@@ -322,4 +345,20 @@ sidebar
 /* Показать выпадающее меню (используйте JS, чтобы добавить этот класс .dropdown-content содержимого, когда пользователь нажимает на кнопку выпадающего списка) */
 .show {
     display: block;
+}
+
+
+@media screen and (width <= 420px) {
+    .MAIN_DIV {
+        flex-direction: column;
+    }
+
+    .sidebar_section {
+        width: 100%;
+    }
+
+    .content_div {
+        width: 100%;
+
+    }
 }

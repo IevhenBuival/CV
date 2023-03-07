@@ -13,7 +13,7 @@ myAboutLink.addEventListener('click', function (e) {
         myAboutLinkHref.textContent = "Show All";
     } else {
         myAbout.classList.remove('invisible');
-        myAboutLinkHref.textContent = "Show les";
+        myAboutLinkHref.textContent = "Show less";
     }
 }, false);
 
