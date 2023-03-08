@@ -348,12 +348,11 @@ sidebar
 }
 
 
-@media screen and (width <= 420px) {
-    .MAIN_DIV {
-        flex-direction: column;
-    }
-
-    .sidebar_section {
+@media screen and (max-width: 650px){
+    .MAIN_DIV{
+      flex-direction: column-reverse;
+    }  
+     .sidebar_section {
         width: 100%;
     }
 
@@ -361,4 +360,4 @@ sidebar
         width: 100%;
 
     }
-}
+  }
